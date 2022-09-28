@@ -1,0 +1,79 @@
+.top{
+    height:26px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(233, 229, 229, 0.719);
+    cursor: pointer;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin:auto;
+    
+
+}
+.why{
+margin-left: 100px;
+}
+.down{
+    margin-top: -18px;
+    margin-left: 200px;
+}
+.apple{
+    margin-top: -18px;
+    margin-left: 280px;
+}
+.playstore{
+    margin-top: -19px;
+    margin-left: 305px;
+}
+.left{
+     margin-left:700px; 
+     display:flex;
+     gap:10px;  
+     margin-top:-20px; 
+}
+
+/* ........bottom... */
+
+.bottom{
+    height: 100px;
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 5px;
+    }
+    .Location{
+         margin-top: -40px;
+        margin-left: 250px;
+        }
+.pic_licious{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+ .left2{
+    margin-left:1100px; 
+    display:flex;
+    gap:80px;  
+    margin-top:-20px;
+ }
+ .categories{
+    margin-left: -40px;
+    
+ }
+ .cate{
+    margin-top:-20px;
+    margin-left:-70px;
+ }
+ .login{
+    margin-left:-70px;
+ }
+ .cartw{
+    margin-top:-18px;
+    margin-left:-70px;
+ }
+
+
+
+ /* ......bannner_pic..... */
+
+  
+
+ 
