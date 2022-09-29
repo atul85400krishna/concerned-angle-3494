@@ -1,0 +1,142 @@
+.container{
+    border: 2px solid red;
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 10px;
+}
+.container div{
+    width: 60%;
+    height: 180px;
+    border: 2px solid blue;
+   
+}
+
+/* .....page2...... */
+
+.shop{
+    
+}
+
+/* .......pages-4..... */
+
+ .jion{
+    border: 2px solid black;
+    width: 100%;
+    height: 200px;
+ }
+ .join_pic{
+    border: 1px solid rgb(34, 218, 77);
+    width: 80%;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 40px;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: left;
+    align-items: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding: 16px 12px;
+    background-color:rgb(222, 203, 93);
+    border-radius:25px;
+     
+
+ }
+
+ /* ..........page5........  */
+
+ .know{
+    border: 2px solid black;
+    width: 100%;
+    height: 150px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.know2{
+    border: 2px solid red;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.know2 div{
+    width: 60%;
+    height: 180px;
+    border: 2px solid blue;
+   
+}
+
+/* ..........page6........  */
+
+.bank img{
+    border: 2px solid green;
+    width: 80%;
+    height: 150px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+
+/* .........Page-7.... */
+
+.Best_seller{
+    border: 2px solid red;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+}
+
+.Best_seller div{
+    width: 80%;
+    height: 350px;
+    border: 2px solid blue;
+   
+}
+
+
+
+/* .....Page-13..... */
+
+
+.check{
+    border: 2px solid red;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+}
+
+.check div{
+    width: 80%;
+    height: 500px;
+    border: 2px solid blue;
+   
+}
+/* ......Page-14.... */
+
+.every img{
+    border: 2px solid green;
+    width: 80%;
+    height: 550px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+/* .....Page-15... */
+
+.Made{
+    border: 2px solid green;
+    width:  40%;
+    height: 250px;
+    /* align-items: center;
+    justify-content: center;  */
+    margin-left: 500px;
+   
+}
