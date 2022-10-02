@@ -18,6 +18,8 @@ import Page13 from '../Components/Home/Page13';
 import Page14 from '../Components/Home/Page14';
 import Page15 from '../Components/Home/Page15';
 import Page0 from '../Components/Home/Page0';
+// import Login from '../Components/Home/login';
+// import AllRoutes from '../Components/Home/AllRoutes';
 
  const Home=()=> {
   return (
@@ -25,6 +27,7 @@ import Page0 from '../Components/Home/Page0';
 
        <Page0 />
         <Navbar/>
+        {/* <AllRoutes /> */}
         <Bang />
         <Pages2 />
         <Pages3 />
@@ -41,9 +44,8 @@ import Page0 from '../Components/Home/Page0';
         <Page13/>
         <Page14 />
         <Page15 />
-       
-
         <Footer/>
+        {/* <Login /> */}
     </div>
   );
 }

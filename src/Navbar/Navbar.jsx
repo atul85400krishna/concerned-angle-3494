@@ -22,6 +22,8 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
   } from '@chakra-ui/icons';
+ 
+
   
   export default function  Navbar() {
     const { isOpen, onToggle } = useDisclosure();
@@ -79,9 +81,11 @@ import {
               fontSize={'sm'}
               fontWeight={400}
               variant={'link'}
-              href={'#'}>
-              Sign In
+              href={''}>
+              
             </Button>
+           <div>
+           <Link href="http://localhost:3000/login">
             <Button
               display={{ base: 'none', md: 'inline-flex' }}
               fontSize={'sm'}
@@ -89,12 +93,15 @@ import {
               color={'white'}
               bg={'pink.400'}
               px={15}
-              href={'#'}
+              href={''}
               _hover={{
                 bg: 'pink.300',
               }}>
-              Sign Up
+              Login
             </Button>
+            </Link>
+           </div>
+           
           </Stack>
         </Flex>
   
@@ -118,7 +125,7 @@ import {
               <PopoverTrigger>
                 <Link
                   p={2}
-                  href={navItem.href ?? '#'}
+                  href={navItem.href ?? ''}
                   fontSize={'sm'}
                   fontWeight={500}
                   color={linkColor}
@@ -207,7 +214,7 @@ import {
         <Flex
           py={2}
           as={Link}
-          href={href ?? '#'}
+          href={href ?? ''}
           justify={'space-between'}
           align={'center'}
           _hover={{
@@ -262,50 +269,52 @@ import {
       
       children: [
         {
-          label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
-          href: '#',
+          label: 'Delhi',
+          subLabel: 'ChorBajar',
+          href: '',
         },
         {
-          label: 'New & Noteworthy',
-          subLabel: 'Up-and-coming Designers',
-          href: '#',
+          label: ' Bihar',
+          subLabel: 'Patna',
+          href: '',
          
         },
         {
-            label: 'Explore Design Work',
-            subLabel: 'Trending Design to inspire you',
-            href: '#',
+            label: 'Rachi',
+            subLabel: ' Rachi-Market',
+            href: '',
           },
           {
-            label: 'New & Noteworthy',
-            subLabel: 'Up-and-coming Designers',
-            href: '#',
+            label: 'Jaipur',
+            subLabel: 'Pratap-chowk',
+            href: '',
           },
       ],
     },
     {
-      label: 'Find Work',
+      label: 'Categories',
       children: [
         {
-          label: 'Job Board',
-          subLabel: 'Find your dream design job',
-          href: '#',
+          label: 'Chiken_Iteams',
+          subLabel: 'Chiken Biryani_ ',
+          href: '',
         },
         {
-          label: 'Freelance Projects',
-          subLabel: 'An exclusive list for contract work',
-          href: '#',
+          label: 'Mutton',
+          subLabel: 'Mutton_fry',
+          href: '',
+        },
+        {
+          label: 'Eggs',
+          subLabel: 'Eggs-fry',
+          href: '',
         },
       ],
     },
+     
     {
-      label: 'Learn Design',
-      href: '#',
-    },
-    {
-      label: 'Hire Designers',
-      href: '#',
+      label: 'Cart',
+      href: '',
     },
   ];
 
